@@ -1,15 +1,13 @@
 public class Main {
-            public static void main(String[] args) {
-                String a = "Мама";
-                String b = "Мыла";
-                String c = "Раму";
-                System.out.println(a + b + c);
-                System.out.println(a + c + b);
-                System.out.println(b + c + a);
-                System.out.println(b + a + c);
-                System.out.println(c + b + a);
-                System.out.println(c + a + b);
+    public static void main(String[] args) {
+        String z[]={"Мама","Мыла","Раму"};
+        for (int i = 0; i < z.length; i++) {
+            for (int j = 0; j <z.length ; j++) {
+                for (int k = 0; k <z.length ; k++) {
 
-
+                    System.out.println(z[i]+z[j]+z[k]);
+                }
             }
         }
+    }
+}
