@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Первое число: ");
         int a =scanner.nextInt();
         System.out.println("Второе число: ");
-        int b = scanner.nextInt();5
+        int b = scanner.nextInt();
 
         if (a==b) {
             System.out.println("true");
