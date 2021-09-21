@@ -1,7 +1,14 @@
 public class Main {
+    public static void function(int arr[], int i) {
+        if (i< arr.length){
+            System.out.print(arr[i]+" ");
+            i++;
+            function(arr,i);
+        }
+    }
     public static void main(String[] args) {
         int num[] = {4,2,6,2,65};
-        if(num.length>=1)  {
-            System.out.print(num[0]+","+num[1]+","+num[2]+","+num[3]+","+num[4]);
-        }
-    }}
+        int i = 0;
+        function(num,i);
+    }
+}
